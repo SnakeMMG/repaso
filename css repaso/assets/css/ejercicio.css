@@ -1,0 +1,65 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 159, 172);
+}
+h1{
+    text-align: center;
+    top: 20%;
+}
+.do{
+    width: 75%;
+    background-color: rgb(29, 26, 26);
+    
+    left: 12%;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white ;
+}
+.html {
+    position: absolute;
+    width: 170px;
+    top: 18%;
+    left: 22%;
+}
+.lorem{
+    position: absolute;
+    top: 21%;
+    left: 35%;
+    right: 20%;
+
+}
+.rojo{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.negro{
+    color: black;
+    background-color: white;
+}
+.tr{
+    width: 75%;
+    background-color: rgb(29, 26, 26);
+   
+    left: 12%;
+    position: absolute;
+    font-size: 1.5rem;
+    color: white ;
+    top: 40%;
+}
+.css{
+    position: absolute;
+    width: 170px;
+    top: 45%;
+    left: 22%;
+}
+.lorem2{
+     position: absolute;
+    
+    top: 45%;
+    left: 35%;
+    right: 20%; 
+}

@@ -1,0 +1,17 @@
+table, tr, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 400px;
+}
+.enlace{
+    /* display: block; */
+    background-color: cyan;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+#bloque {
+    background-color: red;
+    text-align: center;
+} 

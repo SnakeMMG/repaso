@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Repaso</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <h1>Repaso HTML</h1>
+        <h2 id="subtitulo">formulario</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>Datos</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre">
+                    <!-- value="entrar" -->
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido"
+                    name="apellido" type="text" placeholder="Ingrese su nombre">
+                    <!-- value="entrar" -->
+                </div>
+                <div><label for="comentarios"></label><textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea></div>
+                <div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+        <h2>Tabla</h2>
+        <table>
+            <thead>
+                <!-- colspan -->
+                <!-- rowspan -->
+                <tr>
+                    <th>Cabecera</th>
+                    <th>Cabecera</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Pie</td>
+                    <td>Pie</td>
+                </tr>
+
+            </tfoot>
+        </table>
+        
+        <!-- inline en linea -->
+        <a class="enlace" href="servicios.html" target="_blank">Enlace</a>
+        <a class="enlace" href="servicios.html" target="_blank">Enlace 2</a>
+        <span class="enlace">ese es un span</span>
+
+        <!-- block en bloque-->
+        <p id="bloque" >este es un parrafo</p>
+        <h1 id="bloque">titulo</h1>
+        <h2 id="bloque">subtitulo h2</h2>
+        <h6 id="bloque">subtitulo h6</h6>
+        <div id="bloque">este es un div</div>
+
+        <a href="servicios.html"><button>hola</button></a>
+        <a href="servicios.html"><img src="https://i.blogs.es/156408/doom-eternal-ancient-gods-part-2-dlc-release-date-2/1366_2000.jpeg" alt="DOOM" width="600"></a>
+        <a href="#subtitulo">Ir arriba</a>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 36);
+}
+.menu {
+    background-color: rgb(194, 20, 136);
+    height: 50px;
+    
+}
+
+.menu ul {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center; /* centra el texto */
+}
+.elemento{
+    display: inline;
+    margin: 0 20px;
+    /* margin: superior derecha inferior izquierda orden del margen */
+
+}
+.elemento a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;/* quita las decoraciones de los textos */
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    transition-duration: .5s;
+    width: max-content;
+
+}
+.elemento a:hover{
+    color:deepskyblue;
+    background-color: firebrick;
+    font-size: 30px;
+}
+
